@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-sf-travel {
+        @apply bg-sftravel text-white border border-green-400 px-2 py-1 m-4 rounded;
+    }
+}
